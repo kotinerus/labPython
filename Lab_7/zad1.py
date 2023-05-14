@@ -1,0 +1,7 @@
+krotka = ("Jeden", "Dwa", "Trzy", 4, 5, 6)
+print(len(krotka))
+print(id(krotka))
+krotka1 = krotka+("Siedem", 8)
+print(len(krotka1))
+print(id(krotka1))
+list(krotka)
